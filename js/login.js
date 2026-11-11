@@ -111,7 +111,6 @@ const check_xss = (input) => {
             const b = password;
             const eb = this.encodeByAES256(rk, b);
             return eb;
-            console.log(eb);
          }
 
             function decrypt_text(){
@@ -197,8 +196,6 @@ const check_xss = (input) => {
                 }
                 
             
-            console.log('이메일:', emailValue);
-            console.log('비밀번호:', passwordValue);
 
             if(idsave_check.checked == true) { // 아이디 체크 o
                 alert("쿠키를 저장합니다.", emailValue);

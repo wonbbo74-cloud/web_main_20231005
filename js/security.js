@@ -21,7 +21,6 @@ function encrypt_text(password){
   const b = password;
   const eb = this.encodeByAES256(rk, b);
   return eb;
-  console.log(eb);
 }
 
   function decrypt_text(){
